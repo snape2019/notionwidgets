@@ -1,148 +1,41 @@
-      <!-- Show static HTML/CSS as a placeholder in case js is not enabled - javascript include will override this if things work -->
-      <style type="text/css" media="screen">
-  .gr_custom_container_ {
-    /* customize your Goodreads widget container here*/
-    border: 1px solid gray;
-    border-radius:10px;
-    padding: 10px 5px 10px 5px;
-    background-color: #FFF;
-    color: #000;
-    width: 300px
-  }
-  .gr_custom_header_ {
-    /* customize your Goodreads header here*/
-    border-bottom: 1px solid gray;
-    width: 100%;
-    margin-bottom: 5px;
-    text-align: center;
-    font-size: 120%
-  }
-  .gr_custom_each_container_ {
-    /* customize each individual book container here */
-    width: 100%;
-    clear: both;
-    margin-bottom: 10px;
-    overflow: auto;
-    padding-bottom: 4px;
-    border-bottom: 1px solid #aaa;
-  }
-  .gr_custom_book_container_ {
-    /* customize your book covers here */
-    overflow: hidden;
-    height: 60px;
-      float: left;
-      margin-right: 4px;
-      width: 39px;
-  }
-  .gr_custom_author_ {
-    /* customize your author names here */
-    font-size: 10px;
-  }
-  .gr_custom_tags_ {
-    /* customize your tags here */
-    font-size: 10px;
-    color: gray;
-  }
-  .gr_custom_rating_ {
-    /* customize your rating stars here */
-    float: right;
-  }
-</style>
-
-      <div id="gr_custom_widget_">
-          <div class="gr_custom_container_">
-    <h2 class="gr_custom_header_">
-    <a style="text-decoration: none;" rel="nofollow" href="https://www.goodreads.com/review/list/92690550?shelf=read&amp;utm_medium=api&amp;utm_source=custom_widget">冷面&#39;s books</a>
-    </h2>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="失踪的孩子 (那不勒斯四部曲, #4)" rel="nofollow" href="https://www.goodreads.com/review/show/6414573504?utm_medium=api&amp;utm_source=custom_widget"><img alt="失踪的孩子" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1575777315l/44105885._SX50_.jpg" /></a>
+	<style>
+		#customize-list{
+			float:left;
+			margin-left:20px;
+			list-style:none;
+		}
+	  #gr_updates_widget{
+		float:left;
+		border-radius: 5px;
+		background-color:#fff;
+		border:solid #683205 10px;
+		-webkit-box-shadow: 0px 0px 4px 1px #595959,
+		inset 0px 0px 0px 1px #7D730B;
+		-moz-box-shadow: 0px 0px 4px 1px #595959,
+		inset 0px 0px 0px 1px #7D730B;
+		box-shadow: 0px 0px 4px 1px #595959,
+		inset 0px 0px 0px 1px #7D730B;
+		padding:15px 0 0px 15px;
+		width:250px;
+		height:365px;
+	  }
+	  #gr_footer{
+		margin-bottom:0px;
+		height:30px;
+	  }
+	  #gr_updates_widget p{
+		padding:0px;
+		margin:0;
+		font-size:14px;
+	  }
+	  #gr_footer img{
+		width:100px;
+		float:left;
+	  }
+	</style>
+	<div id="gr_updates_widget">
+	  <iframe sandbox id="the_iframe" src="https://goodreads.com/widgets/user_update_widget?height=400&num_updates=4&user=92690550&width=250" width="248" height="330" frameborder="0"></iframe>
+          <div id="gr_footer">
+            <a href="https://www.goodreads.com/"><img alt="Goodreads: Book reviews, recommendations, and discussion" src="https://s.gr-assets.com/images/layout/goodreads_logo_140.png" /></a>
           </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/6414573504?utm_medium=api&amp;utm_source=custom_widget">失踪的孩子</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/44085.Elena_Ferrante">Elena Ferrante</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="新名字的故事 (那不勒斯四部曲, #2)" rel="nofollow" href="https://www.goodreads.com/review/show/6414570163?utm_medium=api&amp;utm_source=custom_widget"><img alt="新名字的故事" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1538570718l/42133670._SY75_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/6414570163?utm_medium=api&amp;utm_source=custom_widget">新名字的故事</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/44085.Elena_Ferrante">Elena Ferrante</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="我的天才女友" rel="nofollow" href="https://www.goodreads.com/review/show/6414561022?utm_medium=api&amp;utm_source=custom_widget"><img alt="我的天才女友" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1653055670l/43157104._SX50_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/6414561022?utm_medium=api&amp;utm_source=custom_widget">我的天才女友</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/44085.Elena_Ferrante">Elena Ferrante</a>
-          </div>
-      </div>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="天堂囚徒" rel="nofollow" href="https://www.goodreads.com/review/show/6388066438?utm_medium=api&amp;utm_source=custom_widget"><img alt="天堂囚徒" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634561110l/59396050._SX50_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="liked it"><img alt="liked it" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_inactive.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/6388066438?utm_medium=api&amp;utm_source=custom_widget">天堂囚徒</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/815.Carlos_Ruiz_Zaf_n">Carlos Ruiz Zafón</a>
-          </div>
-          <div class="gr_custom_review_">
-            读起来很流畅，翻到最后一页才惊叹“这么快就结束了”。这本只有两百多页，和前两本相比，确实存在差距，只能算是一点第一部的后续，作为第三部，它的内容还不够，有承上启下的作用，依然留下了大量疑问给这个系列的最后一本书。
-
-[spoilers removed]
-          </div>
-      </div>
-      <div class="gr_custom_each_container_">
-          <div class="gr_custom_book_container_">
-            <a title="天使游戏" rel="nofollow" href="https://www.goodreads.com/review/show/6388064816?utm_medium=api&amp;utm_source=custom_widget"><img alt="天使游戏" border="0" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1634561256l/59396064._SX50_.jpg" /></a>
-          </div>
-          <div class="gr_custom_rating_">
-            <span class=" staticStars notranslate" title="it was amazing"><img alt="it was amazing" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /><img alt="" src="https://s.gr-assets.com/images/layout/gr_red_star_active.png" /></span>
-          </div>
-          <div class="gr_custom_title_">
-            <a rel="nofollow" href="https://www.goodreads.com/review/show/6388064816?utm_medium=api&amp;utm_source=custom_widget">天使游戏</a>
-          </div>
-          <div class="gr_custom_author_">
-            by <a rel="nofollow" href="https://www.goodreads.com/author/show/815.Carlos_Ruiz_Zaf_n">Carlos Ruiz Zafón</a>
-          </div>
-          <div class="gr_custom_review_">
-            从时间顺序来说，这是第一部的前传。
-前半部份是亮色调的，人物语言幽默，感觉和第一部风格迥异。后半部份，诅咒和坏警察（第一部也有坏警察）粉墨登场，明显转为暗色调。和第一部的相似之处是，都讲述主角因为遗忘书之墓的一本书陷入和往事相似的诅咒漩涡，逃出诅咒的过程。这部不少尚未有答案的谜团指向了下一部作品。
-
-没想到，伊莎贝拉还是和森贝雷在结婚了，有点可惜。戴维居然和小时候的克莉丝汀娜相遇（并不是很喜欢这个角色，总是伤了戴维的心），实在太有奇幻色彩了，还是说只是作者的浪漫化处理方...
-          </div>
-      </div>
-  <br style="clear: both"/>
-  <center>
-    <a rel="nofollow" href="https://www.goodreads.com/"><img alt="goodreads.com" style="border:0" src="https://s.gr-assets.com/images/widget/widget_logo.gif" /></a>
-  </center>
-  <noscript>
-    Share <a rel="nofollow" href="https://www.goodreads.com/">book reviews</a> and ratings with 冷面, and even join a <a rel="nofollow" href="https://www.goodreads.com/group">book club</a> on Goodreads.
-  </noscript>
-  </div>
-
-      </div>
-      <script src="https://www.goodreads.com/review/custom_widget/92690550.%E5%86%B7%E9%9D%A2's%20bookshelf:%20read?cover_position=&cover_size=&num_books=5&order=&shelf=&sort=&widget_bg_transparent=" type="text/javascript" charset="utf-8"></script>
+        </div>
